@@ -48,6 +48,7 @@ body {
     max-width: 500px;
     margin: 40px auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .welcome__input {
@@ -58,6 +59,9 @@ body {
     border-radius: 25px;
 }
 
+.welcome__input--error {
+    border: 1.5px solid hsl(354, 100%, 66%);
+}
 
 .wecome__input::placeholder {
     color: hsl(223, 100%, 88%);
@@ -78,6 +82,18 @@ body {
     background-color: hsl(223, 100%, 70%);
 }
 
+.welcome__email-error {
+    margin-top: 7px;
+    color: hsl(354, 100%, 66%);
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.welcome__email-error--hidden {
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 500px) {
     .welcome__form {
         max-width: 350px;
@@ -87,19 +103,29 @@ body {
     .welcome__input {
         margin-bottom: 10px;
         flex-basis: 350px;
+        order: 1;
     }
 
     .welcome__cta {
         margin-left: 0;
         padding: 13px 30px;
+        flex-basis: 350px;
+        order: 3;
         text-align: center;
+    }
+
+    .welcome__email-error {
+        flex: 1;
+        margin: 0 0 20px 0;
+        order: 2;
+        
     }
 
 }
 
 
 .illustration {
-    margin: 75px auto;
+    margin: 65px auto;
     width: 500px;
 }
 

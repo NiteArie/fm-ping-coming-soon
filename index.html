@@ -20,9 +20,12 @@
         <img class="welcome__logo" src="images/logo.svg" alt="Ping">
         <h1 class="welcome__title">We are launching <span class="welcome__bold">soon!</span></h1>
         <p class="welcome__desc">Subscribe and get notified</p>
-        <form class="welcome__form" novalidate>
+        <form class="welcome__form js-email-form" novalidate>
           <input class="welcome__input" type="email" placeholder="Your email address...">
           <button class="welcome__cta" type="submit">Notify Me</button>
+          <p class="welcome__email-error welcome__email-error--hidden js-email-error">
+            Please provide a valid email address
+          </p>
         </form>
       </div>
 
