@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
+
+  <div class="l-flex">
+    <div class="l-flex__item">
+      <div class="welcome">
+        <img class="welcome__logo" src="images/logo.svg" alt="Ping">
+        <h1 class="welcome__title">We are launching <span class="welcome__bold">soon!</span></h1>
+        <p class="welcome__desc">Subscribe and get notified</p>
+        <form class="welcome__form" novalidate>
+          <input class="welcome__input" type="email" placeholder="Your email address...">
+          <button class="welcome__cta" type="submit">Notify Me</button>
+        </form>
+      </div>
+
+      <div class="illustration">
+        <img class="illustration__dashboard" src="images/illustration-dashboard.png" alt="Dashboard">
+      </div>
+
+      <div class="social">
+        <img class="social__icon" src="images/facebook.svg" alt="Facebook">
+        <img class="social__icon" src="images/twitter.svg" alt="Twitter">
+        <img class="social__icon" src="images/instagram.svg" alt="Instagram">
+        <p class="social__trademark">
+          &copy; Copyright Ping. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
 
   We are launching soon!
 
@@ -26,9 +66,11 @@
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <scripts src="script.js"></scripts>
 </body>
+
 </html>
