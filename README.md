@@ -1,5 +1,9 @@
 # fm-ping-coming-soon (Ping Coming Soon Page - 1 Column Layout)
 
+## Live Preview 
+
+Live Preview URL: [https://nitearie.github.io/fm-ping-coming-soon/](https://nitearie.github.io/fm-ping-coming-soon/)
+
 ## Design Preview
 
 > Desktop Design
@@ -8,7 +12,7 @@
 
 > Mobile Design
 
-![Mobile Design](./mobile/mobile-design.jpg)
+![Mobile Design](./design/mobile-design.jpg)
 
 ## General
 
